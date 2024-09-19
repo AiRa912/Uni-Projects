@@ -1,4 +1,4 @@
-THE FIXED ITERATION SERIES:
+A. THE FIXED ITERATION SERIES:
 1. Root Finding and Function Analysis
 Description:
 Analyzes the function 
@@ -21,8 +21,17 @@ g(x)=− (x−1) 2 e 1/(x−1)
  
 ​to assess convergence in intervals [0,1] and [2,3]. Analyzes function behavior and convergence criteria.
 
-4. Modified Fixed Point Iteration and Lipschitz Analysis
+B. LU Decomposition(Gaussian)
 Description:
-Uses modified fixed-point iteration and evaluates Lipschitz constants for convergence analysis. Applies these methods to function 
-𝐺1(𝑥) and G1 (x) to determine convergence and iteration requirements.
+Computes the LU decomposition of a square matrix 𝐴 with partial pivoting. The function returns the permutation matrix 𝑃, lower triangular matrix 𝐿, and upper triangular matrix 𝑈.
+
+C. PLU Decomposition
+Description: Performs PLU (Permutation-LU) decomposition of a matrix 𝐴. The function returns permutation matrix 𝑃, lower triangular matrix 𝐿, and upper triangular matrix 𝑈 after row permutations to ensure numerical stability.
+
+D. Successive Over-Relaxation (SOR) Solver
+Description: Solves a system of linear equations using the Successive Over-Relaxation (SOR) method. The function iteratively updates the solution vector 𝑥 to minimize the residual, based on a relaxation parameter 
+𝑤 and a maximum number of iterations.
+
+
+
 
